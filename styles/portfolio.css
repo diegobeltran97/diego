@@ -1,0 +1,32 @@
+header {
+  height: 450px;
+  background: #ccc; }
+  header .logo {
+    height: 50px;
+    width: 50px;
+    background: #999; }
+
+nav a {
+  display: inline-block;
+  margin-left: 20px;
+  color: 0, 0, 0, 0.7;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase; }
+  nav a:hover {
+    color: black; }
+
+h1 {
+  text-align: center;
+  font-size: 72px;
+  font-weight: 700px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.05em; }
+
+span {
+  display: block;
+  padding: 0.2em 0.5em;
+  border: white solid 10px; }
+
+/*# sourceMappingURL=portfolio.css.map */
