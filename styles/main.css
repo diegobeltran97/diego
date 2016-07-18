@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 header {
   height: 450px;
   background: url(../images/fondo.jpg) center center;
@@ -17,7 +21,7 @@ header {
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: rgba(0, 0, 0, 0.7);
+      color: whitespace;
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase; }
@@ -27,19 +31,20 @@ header {
     text-align: center;
     font-size: 72px;
     font-weight: 700px;
-    color: #39CCCC;
+    color: white;
     text-transform: uppercase;
-    letter-spacing: 0.05;
+    letter-spacing: 0.09;
     margin-bottom: 20px;
     clear: both;
     padding-top: 100px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: white solid 10px; }
+      border: whitespace solid 10px; }
   header .kicker {
     text-align: center;
     font-weight: 700;
+    color: white;
     text-transform: uppercase;
     letter-spacing: 0.05em; }
 
@@ -57,7 +62,8 @@ footer {
         font-size: 12px;
         color: rgba(0, 0, 0, 0.4); }
       footer .lockup .content-wrap a {
-        color: rgba(0, 0, 0, 0.5);
+        font-weight: 700;
+        color: whitespace;
         display: inline-block;
         margin-right: 30px; }
         footer .lockup .content-wrap a:hover {
