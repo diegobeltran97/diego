@@ -140,19 +140,19 @@ h3 {
   font-weight: 300; }
 
 .skill-lockup {
-  max-width: 540px;
-  margin: 100px auto; }
-
-.skill-lockup:after {
-  content: "";
-  display: table;
-  clear: both; }
-  .skill-lockup:after .skill-unit {
+  max-width: 700px;
+  margin: 50px auto; }
+  .skill-lockup:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .skill-lockup .skill-unit {
     width: 350px;
     float: left; }
-    .skill-lockup:after .skill-unit .skill-icons span {
-      display: inline-block;
-      width: 14px;
-      height: 14px; }
+  .skill-lockup span {
+    display: inline-block;
+    height: 14px;
+    weight: 14px;
+    background-color: #e5eaee; }
 
 /*# sourceMappingURL=main.css.map */
