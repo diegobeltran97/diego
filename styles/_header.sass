@@ -4,8 +4,10 @@ $teal: #39CCCC
 
 header
   height: 450px
-  background: url( ../images/fondo.jpg) center center 
-  background-size: cover
+  background:
+    position: 30px 20px, 50% 50%
+    image: url( ../images/fondo.jpg) 
+  padding-bottom: 50px
     
   
   .logo
@@ -59,3 +61,17 @@ header
     color: white
     text-transform: uppercase
     letter-spacing: 0.05em
+
+@media (max-width: 640px)
+  header
+    background:
+      position: 50% 20px, 50% 50%
+
+    nav
+      float: none
+      text-align: center
+      padding-top: 90px
+
+    h1
+      text-align: center
+      padding-top: 0px
