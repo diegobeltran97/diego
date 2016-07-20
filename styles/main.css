@@ -97,17 +97,62 @@ h3 {
   .face-lockup .icon-marketing {
     order: 0; }
     .face-lockup .icon-marketing img {
+      background-color: #e5eaee;
+      border-radius: 50%;
       height: 100px;
       width: 100px; }
   .face-lockup .icon-coding {
     order: 2; }
     .face-lockup .icon-coding img {
+      background-color: #e5eaee;
+      border-radius: 50%;
       height: 100px;
       width: 100px; }
   .face-lockup .icon-layout {
     order: 3; }
     .face-lockup .icon-layout img {
+      background-color: #e5eaee;
+      border-radius: 50%;
       height: 100px;
       width: 100px; }
+
+@media screen and (max-width: 650px) {
+  .face-lockup {
+    display: block;
+    text-align: center; }
+
+  div {
+    display: inline-block; }
+
+  .face-img {
+    display: block;
+    width: auto;
+    margin-bottom: 10px; }
+
+  .icon-seo, .icon-layout, .icon-coding, .icon-marketing {
+    margin: 10px; } }
+.blurb {
+  max-width: 620px;
+  margin: 50px auto;
+  padding: 0 15px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 300; }
+
+.skill-lockup {
+  max-width: 540px;
+  margin: 100px auto; }
+
+.skill-lockup:after {
+  content: "";
+  display: table;
+  clear: both; }
+  .skill-lockup:after .skill-unit {
+    width: 350px;
+    float: left; }
+    .skill-lockup:after .skill-unit .skill-icons span {
+      display: inline-block;
+      width: 14px;
+      height: 14px; }
 
 /*# sourceMappingURL=main.css.map */
