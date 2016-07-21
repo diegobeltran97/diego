@@ -78,7 +78,7 @@ footer {
         color: rgba(0, 0, 0, 0.4); }
       footer .lockup .content-wrap a {
         font-weight: 700;
-        color: whitespace;
+        color: white;
         display: inline-block;
         margin-right: 30px; }
         footer .lockup .content-wrap a:hover {
@@ -207,5 +207,14 @@ h3 {
     margin: 0 30px; }
     .skill-lockup .skill-unit {
       width: 220px; } }
+.contact-lockup {
+  width: 20px;
+  height: 50px;
+  display: inline-block; }
+  .contact-lockup div {
+    text-transform: uppercase;
+    margin: 5px 4px;
+    font-weight: bold;
+    text-align: center; }
 
 /*# sourceMappingURL=main.css.map */

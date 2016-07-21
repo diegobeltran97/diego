@@ -1,0 +1,57 @@
+commit ac3cf24e0b6dd5cc3c898988c8cd9f4bd612afd0
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Wed Jul 20 11:58:39 2016 -0500
+
+ habilidades con problema 
+commit cd8d2a20fedcce35be9c0b55183ddb31fc0375f8
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Tue Jul 19 23:40:54 2016 -0500
+
+  arreglando the skills 
+
+
+commit 6d997666423a0de01dd31cd404e6c78a7c8c785e
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Tue Jul 19 00:50:23 2016 -0500
+
+   profile sin habilidades 
+
+
+
+commit ce080b5b13ca41978540e986a3cfa946c06d124e 
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Mon Jul 18 23:24:03 2016 -0500
+
+   profile first part 
+
+(header-footer-profile without skills and without paragraph)
+
+
+
+
+commit 2717284b738b0d81dd3d6e8156570997921b4ac4  
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Sun Jul 17 21:13:43 2016 -0500
+
+    header y footer for my style
+
+tenemos el header y footer sin el perfil 
+
+
+
+
+
+commit f025e7b7f0e633caaa28d2c199245bc090ce0515 
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Sun Jul 17 00:50:42 2016 -0500
+
+    footer y header sin responsive
+
+
+commit a71f9a3c2a396e5789f7f830db4b7578feeb8c3f 
+Author: Diego sastoque <diegoelcairo@gmai.com>
+Date:   Sat Jul 16 17:16:37 2016 -0500
+
+  Header
+
+(parte 1)
