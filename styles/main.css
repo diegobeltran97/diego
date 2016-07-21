@@ -5,7 +5,8 @@
 header {
   height: 450px;
   background-position: 30px 20px, 50% 50%;
-  background-image: url(../images/fondo.jpg);
+  background: url(../images/fondo.jpg);
+  background-size: cover;
   padding-bottom: 50px; }
   header .logo {
     height: 50px;
@@ -22,7 +23,8 @@ header {
     header nav a {
       display: inline-block;
       margin-left: 20px;
-      color: whitespace;
+      color: white;
+      text-decoration: none;
       font-size: 14px;
       font-weight: 700;
       text-transform: uppercase; }
@@ -31,33 +33,35 @@ header {
   header h1 {
     text-align: center;
     font-size: 72px;
-    font-weight: 700px;
+    font-weight: 700;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 0.09;
+    letter-spacing: 0.05em;
     margin-bottom: 20px;
     clear: both;
     padding-top: 100px; }
     header h1 span {
       display: inline-block;
       padding: 0.2em 0.5em;
-      border: whitespace solid 10px; }
+      border: white solid 10px; }
   header .kicker {
     text-align: center;
-    font-weight: 700;
     color: white;
     text-transform: uppercase;
-    letter-spacing: 0.05em; }
+    letter-spacing: 0.05em;
+    line-height: 1; }
 
 @media (max-width: 640px) {
   header {
-    background-position: 50% 20px, 50% 50%; }
+    background-size: cover;
+    margin: 0; }
     header nav {
       float: none;
       text-align: center;
-      padding-top: 90px; }
+      padding-top: 90px;
+      margin-bottom: 15px; }
     header h1 {
-      text-align: center;
+      font-size: 32px;
       padding-top: 0px; } }
 footer {
   background: url(../images/fondo.jpg) center center;
@@ -145,25 +149,24 @@ h3 {
 .blurb {
   max-width: 620px;
   margin: 50px auto;
-  padding: 0 15px;
+  padding: 0 20px;
   font-size: 24px;
   text-align: center;
   font-weight: 300; }
 
 .skill-lockup {
-  max-width: 700px;
-  margin: 50px auto; }
+  max-width: 540px;
+  margin: 100px auto; }
   .skill-lockup:after {
     content: "";
     display: table;
     clear: both; }
   .skill-lockup .skill-unit {
-    width: 350px;
-    height: 50px;
+    width: 270px;
     float: left; }
   .skill-lockup .skill-icons {
     font-size: 0;
-    margin-bottom: 30px; }
+    margin: 3px 0; }
     .skill-lockup .skill-icons span {
       display: inline-block;
       width: 14px;
@@ -201,7 +204,7 @@ h3 {
 @media screen and (max-width: 541px) {
   .skill-lockup {
     width: 220px;
-    margin: 10px 30px; }
+    margin: 0 30px; }
     .skill-lockup .skill-unit {
       width: 220px; } }
 

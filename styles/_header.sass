@@ -4,9 +4,9 @@ $teal: #39CCCC
 
 header
   height: 450px
-  background:
-    position: 30px 20px, 50% 50%
-    image: url( ../images/fondo.jpg) 
+  background-position: 30px 20px, 50% 50%
+  background: url( ../images/fondo.jpg) 
+  background-size: cover
   padding-bottom: 50px
     
   
@@ -29,8 +29,8 @@ header
     a
       display: inline-block
       margin-left: 20px
-      color: whitespace
-
+      color: white
+      text-decoration: none
       font-size: 14px
       font-weight: 700
       text-transform: uppercase
@@ -42,36 +42,37 @@ header
   h1
     text-align: center
     font-size: 72px
-    font-weight: 700px
+    font-weight: 700
     color: white
     text-transform: uppercase
-    letter-spacing: 0.09
+    letter-spacing: 0.05em
     margin-bottom: 20px
     clear: both
     padding-top: 100px
     span
       display: inline-block
       padding: 0.2em 0.5em
-      border: whitespace solid 10px
+      border: white solid 10px
 
   .kicker
     text-align: center
-    font: 
-      weight: 700
     color: white
     text-transform: uppercase
     letter-spacing: 0.05em
+    line-height: 1
 
 @media (max-width: 640px)
   header
-    background:
-      position: 50% 20px, 50% 50%
+    background-size: cover
+    margin: 0
 
     nav
       float: none
       text-align: center
+      
       padding-top: 90px
+      margin-bottom: 15px
 
     h1
-      text-align: center
+      font-size: 32px
       padding-top: 0px
